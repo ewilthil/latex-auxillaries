@@ -1,15 +1,15 @@
 \ProvidesPackage{preamble}
 \usepackage[utf8]{inputenc}
-\usepackage{fullpage}
 \usepackage{diagbox}
 \usepackage{multirow}
 \usepackage{lipsum}
 \usepackage{graphicx}
 \usepackage{subcaption}
+\usepackage{mathtools}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[pdftex,bookmarks=true]{hyperref}
 \usepackage[plain]{fancyref}
-\usepackage[xindy,nopostdot,nonumberlist,acronyms]{glossaries}
+\usepackage[xindy,acronym]{glossaries}
 \hypersetup{
     colorlinks,%
     citecolor=black,%
@@ -17,3 +17,5 @@
     linkcolor=black,%
     urlcolor=black
 }
+
+\DeclarePairedDelimiter{\parens}{(}{)}
